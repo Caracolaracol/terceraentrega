@@ -446,7 +446,8 @@ form {
   flex-direction: column;
   z-index: 1;
   margin-left: 20%;
-  margin-right: 20%; }
+  margin-right: 20%;
+  margin-bottom: 4vw; }
   .sobremi .card {
     background-color: #d3bfbf; }
 
@@ -482,10 +483,12 @@ form {
   margin: 1vw; }
 
 .parrafo-sobremi {
-  text-align: justify; }
+  text-align: justify;
+  padding: 1vw; }
 
 .parrafo-sobremi-1 {
-  text-align: justify; }
+  text-align: justify;
+  padding: 1vw; }
 
 @media screen and (max-width: 768px) {
   .imagen-sobremi-1 {
@@ -714,6 +717,39 @@ details > summary {
 /* details > summary::marker {
     display: none;
 } */
+.texto-background {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.5vw;
+  position: sticky;
+  text-align: center;
+  top: 250vw;
+  margin-bottom: 4vw;
+  color: #220022; }
+
+@media screen and (max-width: 1024px) {
+  .texto-background {
+    font-size: 2.8vw;
+    margin-bottom: 9vw; } }
+
+@media screen and (max-width: 768px) {
+  .texto-background {
+    font-size: 3.8vw;
+    margin-bottom: 17vw; } }
+
+@media screen and (max-width: 510px) {
+  .texto-background {
+    font-size: 5.3vw;
+    margin-bottom: 17vw;
+    margin-left: 14vw;
+    margin-right: 14vw; } }
+
+@media screen and (max-width: 333px) {
+  .texto-background {
+    font-size: 6.5vw;
+    margin-bottom: 19vw;
+    margin-left: 24vw;
+    margin-right: 24vw; } }
+
 @media screen and (max-width: 1024px) {
   details {
     display: block; } }
